@@ -8,7 +8,7 @@
   <body>
     <div id="app">
       <h1>Counter</h1>
-      <p>{{count}}</p>
+      <p :data-increment-by="incrementAmount">{{count}}</p>
       <button @click="incrementCount(10,$event)">Increment Count</button>
       <h1>{{incrementAmount}}</h1>
       <div>
